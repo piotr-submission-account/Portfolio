@@ -20,7 +20,7 @@ function AboutCard() {
           </p>
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Horseback archery
+              <ImPointRight /> Sports of all sorts
             </li>
             <li className="about-activity">
               <ImPointRight /> Learning new languages
@@ -33,7 +33,7 @@ function AboutCard() {
           <p style={{ color: "rgb(155 126 172)" }}>
             "Engineering and modelling data, re-designing processes for governance, observability and in turn better data quality."{" "}
           </p>
-          <footer className="blockquote-footer">Sieminski</footer>
+          <footer className="blockquote-footer">Piotr Sieminski</footer>
         </blockquote>
       </Card.Body>
     </Card>

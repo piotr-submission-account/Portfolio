@@ -14,6 +14,8 @@ import {
   AiOutlineUser,
 } from "react-icons/ai";
 
+import { FaBuilding } from "react-icons/fa";
+
 import { CgFileDocument } from "react-icons/cg";
 
 function NavBar() {
@@ -79,6 +81,19 @@ function NavBar() {
                   style={{ marginBottom: "2px" }}
                 />{" "}
                 Projects
+              </Nav.Link>
+            </Nav.Item>
+
+            <Nav.Item>
+              <Nav.Link
+                as={Link}
+                to="/clients"
+                onClick={() => updateExpanded(false)}
+              >
+                <FaBuilding
+                  style={{ marginBottom: "2px" }}
+                />{" "}
+                Clients
               </Nav.Link>
             </Nav.Item>
 

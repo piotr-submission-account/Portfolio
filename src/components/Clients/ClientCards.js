@@ -2,9 +2,9 @@ import React from "react";
 import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
 import { CgWebsite } from "react-icons/cg";
-import { FaGitlab } from "react-icons/fa6";
+import { BsGithub } from "react-icons/bs";
 
-function ProjectCards(props) {
+function ClientCards(props) {
   return (
     <Card className="project-card-view">
       <Card.Img variant="top" src={props.imgPath} alt="card-img" />
@@ -13,10 +13,10 @@ function ProjectCards(props) {
         <Card.Text style={{ textAlign: "justify" }}>
           {props.description}
         </Card.Text>
-        <Button variant="primary" href={props.ghLink} target="_blank">
-          <FaGitlab /> &nbsp;
-          {props.isBlog ? "Blog" : "GitLab"}
-        </Button>
+        {/* <Button variant="primary" href={props.ghLink} target="_blank">
+          <BsGithub /> &nbsp;
+          {props.isBlog ? "Blog" : "GitHub"}
+        </Button> */}
         {"\n"}
         {"\n"}
 
@@ -37,4 +37,4 @@ function ProjectCards(props) {
     </Card>
   );
 }
-export default ProjectCards;
+export default ClientCards;
