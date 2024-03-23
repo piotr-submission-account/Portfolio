@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.18c476ba.css",
-    "main.js": "/static/js/main.ff4c6cd0.js",
+    "main.css": "/static/css/main.bc876c9e.css",
+    "main.js": "/static/js/main.9104ec53.js",
     "static/js/415.4d6acbeb.chunk.js": "/static/js/415.4d6acbeb.chunk.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/leaf.png": "/static/media/leaf.ff2616f664c8c0ceab91.png",
@@ -14,18 +14,17 @@
     "static/media/P_SieminskiCV.pdf": "/static/media/P_SieminskiCV.fea796b9ad4a449a792d.pdf",
     "static/media/prof.jpeg": "/static/media/prof.86676a820467b8f55ca8.jpeg",
     "static/media/smg.jpeg": "/static/media/smg.a84d949b4f96c1dbb4c0.jpeg",
-    "static/media/home-bg.jpg": "/static/media/home-bg.dc52d5d40a40b13154b0.jpg",
     "static/media/astro.webp": "/static/media/astro.a527c5e25758a7594eef.webp",
     "static/media/preply.png": "/static/media/preply.5a0a43531cd143504482.png",
     "static/media/pre.svg": "/static/media/pre.d4812f51c8c80976eaab.svg",
     "index.html": "/index.html",
-    "main.18c476ba.css.map": "/static/css/main.18c476ba.css.map",
-    "main.ff4c6cd0.js.map": "/static/js/main.ff4c6cd0.js.map",
+    "main.bc876c9e.css.map": "/static/css/main.bc876c9e.css.map",
+    "main.9104ec53.js.map": "/static/js/main.9104ec53.js.map",
     "415.4d6acbeb.chunk.js.map": "/static/js/415.4d6acbeb.chunk.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.18c476ba.css",
-    "static/js/main.ff4c6cd0.js"
+    "static/css/main.bc876c9e.css",
+    "static/js/main.9104ec53.js"
   ]
 }
