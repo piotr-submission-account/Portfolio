@@ -16,7 +16,7 @@ function Home2() {
       <Container>
         <Row>
           <Col md={8} className="home-about-description">
-            <h1 style={{ fontSize: "2.6em" }}>
+            <h1 style={{ fontSize: "2.6em", fontWeight: "700" }}>
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
@@ -28,9 +28,9 @@ function Home2() {
               </i>
               <br />
               <br />
-              My field of Interest's are building new &nbsp;
+              My field of Interest's are building new&nbsp;
               <i>
-                <b className="purple">database and process optimisations </b> specifically
+                <b className="purple">database and process optimisations </b>specifically
                 in areas related to{" "}
                 <b className="purple">
                   cloud development.

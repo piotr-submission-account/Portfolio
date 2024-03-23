@@ -7,10 +7,11 @@ import { BsGithub } from "react-icons/bs";
 function ClientCards(props) {
   return (
     <Card className="project-card-view">
-      <Card.Img variant="top" src={props.imgPath} alt="card-img" />
       <Card.Body>
-        <Card.Title>{props.title}</Card.Title>
-        <Card.Text style={{ textAlign: "justify" }}>
+        <Card.Title style={{ textAlign: "start" }}>{props.title}</Card.Title>
+        <Card.Subtitle style={{ textAlign: "start", fontWeight: "300", fontSize: "14px"}}>{props.subtitle}</Card.Subtitle>
+        <div className="line-x"></div>
+        <Card.Text style={{ textAlign: "start" }}>
           {props.description}
         </Card.Text>
         {/* <Button variant="primary" href={props.ghLink} target="_blank">

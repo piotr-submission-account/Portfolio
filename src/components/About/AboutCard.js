@@ -6,13 +6,13 @@ function AboutCard() {
   return (
     <Card className="quote-card-view">
       <Card.Body>
-        <blockquote className="blockquote mb-0">
+        <blockquote className="blockquote mb-0" style={{
+          width: "100%"
+        }}>
           <p style={{ textAlign: "justify" }}>
             Hi Everyone, I am <span className="purple">Piotr Sieminski </span>
-            from <span className="purple"> Warsaw, Poland.</span>
-            <br />
+            from <span className="purple"> Warsaw, Poland. </span>
             I am currently working as a Data/Analytics Engineering contractor on various projects across Europe.
-            <br />
             I am certified in cutting-edge technologies like Snowflake, DBT and AWS Cloud.
             <br />
             <br />
