@@ -4,17 +4,10 @@ import homeLogo from "../../Assets/home-main.svg";
 import Particle from "../Particle";
 import Home2 from "./Home2";
 import Type from "./Type";
-import MetaTags from 'react-meta-tags';
 
 function Home() {
   return (
     <section>
-      <MetaTags>
-        <title>Piotr Siemiński | Portfolio</title>
-        <meta id="meta-description" name="description" content="Piotr Siemiński's Portfolio - Data developer" />
-        <meta id="og-title" property="og:title" content="Piotr Siemiński | Portfolio" />
-        <meta id="og-image" property="og:image" content="index.png" />
-      </MetaTags>
       <Container fluid className="home-section" id="home">
         <Particle />
         <Container className="home-content">
