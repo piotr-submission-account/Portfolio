@@ -18,39 +18,39 @@ function Projects() {
           Recent <strong className="purple">Works </strong>
         </h1>
         <p style={{ color: "white" }}>
-          Being updated as you scroll through...
+          Here are a few projects I've completed
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "40px" }}>
-          {/* <Col md={4} className="project-card">
+          <Col md={4} className="project-card">
             <ProjectCard
               imgPath={astro}
               isBlog={false}
-              title="DBT with astro-cli"
-              description="Local deployment of dbt-core dockerised with astro-cli for orchestration with Airflow"
-              ghLink="https://gitlab.com/sieminskipiotr3/airflow-astr-dbt-deployment"
+              title="Matillion to dbt migration"
+              description="Being updated as you're scrolling through"
+              // ghLink="https://gitlab.com/sieminskipiotr3/airflow-astr-dbt-deployment"
               // demoLink="https://chatify-49.web.app/"
-            />
-          </Col> */}
-
-          {/* <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={bitsOfCode}
-              isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={astro}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
+              title="Multi-project dbt core deployment"
+              description="Being updated as you're scrolling through"
+              // ghLink="https://gitlab.com/sieminskipiotr3/airflow-astr-dbt-deployment"
+              // demoLink="https://chatify-49.web.app/"
+            />
+          </Col>
+{/* 
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={astro}
+              isBlog={false}
+              title="Scaling analytics with dbt Cloud"
+              description="Being updated as you're scrolling through"
+              // ghLink="https://gitlab.com/sieminskipiotr3/airflow-astr-dbt-deployment"
+              // demoLink="https://chatify-49.web.app/"
             />
           </Col>
 
@@ -86,7 +86,7 @@ function Projects() {
               ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
               // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
             />
-          </Col> */}
+          </Col>  */}
         </Row>
       </Container>
     </Container>
