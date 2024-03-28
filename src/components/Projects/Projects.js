@@ -23,7 +23,7 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "40px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={astro}
+              // imgPath={astro}
               isBlog={false}
               title="Matillion to dbt migration"
               description="Being updated as you're scrolling through"
@@ -34,7 +34,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={astro}
+              // imgPath={astro}
               isBlog={false}
               title="Multi-project dbt core deployment"
               description="Being updated as you're scrolling through"
@@ -42,10 +42,10 @@ function Projects() {
               // demoLink="https://chatify-49.web.app/"
             />
           </Col>
-{/* 
+
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={astro}
+              // imgPath={astro}
               isBlog={false}
               title="Scaling analytics with dbt Cloud"
               description="Being updated as you're scrolling through"
@@ -54,7 +54,7 @@ function Projects() {
             />
           </Col>
 
-          <Col md={4} className="project-card">
+          {/* <Col md={4} className="project-card">
             <ProjectCard
               imgPath={leaf}
               isBlog={false}
